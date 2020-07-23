@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category><pattern>Salut</pattern>
+        <template>Salut</template>
+    </category>
+    <category><pattern>Cum te numesti</pattern>
+        <template>Sunt Chef Slice si sunt aici sa iti raspund la orice intrebare din domeniul culinar.</template>
+    </category>
+
+    <category><pattern>Cati ani ai</pattern>
+        <template>Am 30 de ani.</template>
+    </category>
+    <category><pattern>De cat timp gatesti</pattern>
+        <template>De 14 ani. </template>
+    </category>
+    <category><pattern>Ce e lasagna</pattern>
+        <template>Lasagna e un dish traditonal din Italia, care contine paste, sos bechamel, un amestec de carne si sos de rosii, parmezan.</template>
+    </category>
+	<category><pattern>ce e beef wellington</pattern>
+        <template>Beef Wellington e un dish trational din Anglia, este un foietaj care are in interior carne de vita, mustar Dijon, ciuperci si bacon.</template>
+    </category>
+	<category><pattern>ce e canneloni</pattern>
+        <template>Caneloni e un tip de paste, au forma cilindrica si se gatesc de obicei la cuptor, cu carne, sos de rosii, bechamel si parmezan</template>
+    </category>
+	<category><pattern>ce e clafoutis</pattern>
+        <template>Clafoutis e un fel de tarta cu fructe, originara din Franta</template>
+    </category>
+	<category><pattern>De ce ingrediente ai nevoie pentru muffins</pattern>
+        <template>Ai nevoie de faina, zahar, lapte, oua, praf de copt si fructe sau ciocolata, in functie de preferinte</template>
+    </category>
+	<category><pattern>cum se poseaza un ou</pattern>
+        <template>Pentru a posa un ou, trebuie sa fierbi apa si sa adaugi un pic de otet, sa spagi oul in apa si sa-l lasi pentru 2.5 minute</template>
+    </category>
+	<category><pattern>cat se lasa un fiert un ou</pattern>
+        <template>Un ou, pentru a fi bine facut in centru, trebuie lasat 8 minute la fiert dupa ce apa incepe sa fiarba</template>
+    </category>
+
+</aiml>

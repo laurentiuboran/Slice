@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContinutJoc">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Întrebarea 1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@color/cardview_light_background"
+            android:layout_gravity="center"
+            android:id="@+id/textViewToolbar" />
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="121dp"
+            android:layout_height="121dp"
+            android:onClick="clickImageView2"
+            android:scaleType="centerCrop"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/a1_2" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="121dp"
+            android:layout_height="121dp"
+            android:onClick="clickImageView1"
+            android:scaleType="centerCrop"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/a1_1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="121dp"
+            android:layout_height="121dp"
+            android:onClick="clickImageView3"
+            android:scaleType="centerCrop"
+            app:layout_column="3"
+            app:layout_row="0"
+            app:srcCompat="@drawable/a1_3" />
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textViewQ"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="234dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cannoli este un desert renumit în toată lumea, originar din Sicilia. Poți să recunoști care e acesta?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/buttonNextChest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:onClick="clickButtonNext"
+        android:text="Următoarea întrebare" />
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContinutJoc"
+    android:orientation="vertical"
+    android:id="@+id/RelativeLayJoc">
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox3"
+        android:layout_centerHorizontal="true"
+        android:onClick="cb4onClick"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox4"
+        android:layout_centerHorizontal="true"
+        android:onClick="cb5onClick"
+        android:text="CheckBox" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarJ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rețeta 1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@color/cardview_light_background"
+            android:layout_gravity="center"
+            android:id="@+id/textViewToolbar" />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageViewRetetaJ"
+        android:layout_width="268dp"
+        android:layout_height="189dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/a1_3" />
+
+    <Button
+        android:id="@+id/buttonNextJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:onClick="clickButtonNextJ"
+        android:text="Următoarea întrebare" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-259dp"
+        android:onClick="cb2onClick"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox2"
+        android:layout_centerHorizontal="true"
+        android:onClick="cb3onClick"
+        android:text="CheckBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="259dp"
+        android:onClick="cb1onClick"
+        android:text="CheckBox" />
+
+    <TextView
+        android:id="@+id/textViewTitleJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:text="Ghicește rețeta!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+</RelativeLayout>
